@@ -1,3 +1,4 @@
+```python
 ordinary = input("Enter ordinary (separate multiple values with spaces): ").split()
 peng = input("Enter peng (separate multiple values with spaces): ").split()
 gang = input("Enter gang (separate multiple values with spaces): ").split()
@@ -11,3 +12,47 @@ print("Total number of elements in my_list:", len(my_list))
 
 if len(my_list) != 14:
     print("xianggong")
+
+sorted(my_list)
+
+class Wan:
+    def __init__(self):
+        for i in range(1, 10):
+            setattr(self, f"w{i}", f"w{i}")
+
+wan_instance = Wan()
+
+for i in range(1, 10):
+    print(getattr(wan_instance, f"w{i}"))
+
+class Bing:
+    def __init__(self):
+        for i in range(1, 10):
+            setattr(self, f"b{i}", f"b{i}")
+
+wan_instance = Bing()
+
+for i in range(1, 10):
+    print(getattr(wan_instance, f"b{i}"))
+
+class Tiao:
+    def __init__(self):
+        for i in range(1, 10):
+            setattr(self, f"t{i}", f"t{i}")
+
+wan_instance = Tiao()
+
+for i in range(1, 10):
+    print(getattr(wan_instance, f"t{i}"))
+
+class Others:
+    def __init__(self):
+        self.east = "east"
+        self.south = "south"
+        self.west = "west"
+        self.north = "north"
+        self.middle = "middle"
+        self.fortune = "fortune"
+        self.vacuum = "vacuum"
+
+others_instance = Others()
