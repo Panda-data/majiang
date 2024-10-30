@@ -1,4 +1,5 @@
 ```python
+
 ordinary = input("Enter ordinary (separate multiple values with spaces): ").split()
 peng = input("Enter peng (separate multiple values with spaces): ").split()
 gang = input("Enter gang (separate multiple values with spaces): ").split()
