@@ -1,0 +1,13 @@
+ordinary = input("Enter ordinary (separate multiple values with spaces): ").split()
+peng = input("Enter peng (separate multiple values with spaces): ").split()
+gang = input("Enter gang (separate multiple values with spaces): ").split()
+last = input("Enter last: ")
+hun = input("Enter hun: ")
+
+my_list = ordinary + peng*3 + gang*3 + [last]
+
+print("My list:", my_list)
+print("Total number of elements in my_list:", len(my_list))
+
+if len(my_list) != 14:
+    print("xianggong")
